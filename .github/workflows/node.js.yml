@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - name: checkout
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
       
       - name: buildAndDeploy
         uses: JamesIves/github-pages-deploy-action@master 
